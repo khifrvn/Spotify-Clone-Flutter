@@ -543,10 +543,10 @@ class _HomePageState extends State<HomePage> {
                           child: Image.asset('assets/images/daily1.jpg'),
                         ),
                         SizedBox(
-                          height: 5.h,
+                          height: 10.h,
                         ),
                         Text(
-                          'Billie Eilish, Khalid, The Weekend',
+                          'Billie Eilish, Khalid, \nThe Weekend and more',
                           style: TextStyle(
                               fontFamily: 'Poppins',
                               fontSize: 12.sp,
@@ -554,7 +554,79 @@ class _HomePageState extends State<HomePage> {
                               color: Color.fromARGB(255, 96, 93, 93)),
                         )
                       ],
-                    )
+                    ),
+                    SizedBox(
+                      width: 20.w,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Container(
+                          height: 150.h,
+                          width: 150.w,
+                          child: Image.asset('assets/images/daily3.jpg'),
+                        ),
+                        SizedBox(
+                          height: 10.h,
+                        ),
+                        Text(
+                          'Dido, Céline Dion \nBryan Adams and more',
+                          style: TextStyle(
+                              fontFamily: 'Poppins',
+                              fontSize: 12.sp,
+                              fontWeight: FontWeight.w500,
+                              color: Color.fromARGB(255, 96, 93, 93)),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      width: 20.w,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Container(
+                          height: 150.h,
+                          width: 150.w,
+                          child: Image.asset('assets/images/daily2.jpg'),
+                        ),
+                        SizedBox(
+                          height: 10.h,
+                        ),
+                        Text(
+                          'Eminem, Dr.Dre, Drake \nSnoop Dog and more',
+                          style: TextStyle(
+                              fontFamily: 'Poppins',
+                              fontSize: 12.sp,
+                              fontWeight: FontWeight.w500,
+                              color: Color.fromARGB(255, 96, 93, 93)),
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      width: 20.w,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Container(
+                          height: 150.h,
+                          width: 150.w,
+                          child: Image.asset('assets/images/daily4.jpg'),
+                        ),
+                        SizedBox(
+                          height: 10.h,
+                        ),
+                        Text(
+                          'Mwuana, GULEED \nCherrie and more',
+                          style: TextStyle(
+                              fontFamily: 'Poppins',
+                              fontSize: 12.sp,
+                              fontWeight: FontWeight.w500,
+                              color: Color.fromARGB(255, 96, 93, 93)),
+                        )
+                      ],
+                    ),
                   ],
                 ),
               )
